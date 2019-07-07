@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+   max-width: 100%;
+
+}
+
+
+#wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    margin: 0 auto;
+    background-color: darkred;
+   
+    
+}
+
+
+h1{
+    border-top: 1px solid darkred;
+    color: darkred;
+    width: 80%; 
+}
+.header{
+   
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+
+
+.header div h1{
+    color: #ffffff;
+    padding: 0px;
+    margin-bottom: 0px;
+}	
+.header div p{
+    padding: 0 0 0 11px;
+    
+}	
+img{
+    border: 5px solid darkred;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#main{
+    color: white;
+    font-size:20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.main-img{
+    display: flex;
+    flex-direction: column;	
+    width: 50%;
+    position: relative;
+}
+
+.container-info{
+    font-size:20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 150px;
+    position: relative;
+
+}
+.LeftContainer {
+    display: grid;
+    grid-template-columns: 80%;
+    margin-left: 50px;
+
+
+}
+.rightContainer {
+    display: grid;
+    grid-template-rows: 25% 1fr;
+    margin-left: 50px;
+}
+
+.Container-sm {
+    display: grid;
+    grid-template-columns:  50% 50%;
+    margin-left: 50px;
+}
+
+
+footer{
+   background-color: darkred;
+   padding: 2%;
+   color: white;
+}
+
+.footerList li{
+    display: inline-block;
+    margin-left: 17%;
+}
